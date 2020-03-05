@@ -13,7 +13,7 @@ class Stack:
         self.myList.prepend(data)
 
     def pop(self, data):
-        return self.myList.remove_head(data)
+        return self.myList.remove_head()
 
 
 class Queue:
@@ -24,4 +24,4 @@ class Queue:
         self.myList.append(data)
 
     def pop(self, data):
-        return self.myList.remove_head(data)
+        return self.myList.remove_head()
